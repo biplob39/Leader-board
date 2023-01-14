@@ -1,5 +1,8 @@
-/* font */
+/*------------ 
+ font
+-------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 
 /* common styies */
 body {
@@ -106,6 +109,10 @@ hr {
     height: 104px;
 }
 
+.course-author {
+    color: rgb(241, 84, 84);
+}
+
 .course-info {
     display: flex;
     align-items: center;
@@ -133,7 +140,9 @@ hr {
     border-radius: 10px;
 }
 
-/* Media Queries */
+/* ----------------- 
+Media Queries 
+---------------- */
 
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
